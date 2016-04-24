@@ -13,7 +13,7 @@ import java.util.Map;
  */
 @Controller
 @Scope("singleton")
-public class IndexController {
+public class IndexController extends AbstractWebController {
     @Autowired
     private ArticleService articleService;
 

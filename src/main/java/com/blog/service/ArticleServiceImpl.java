@@ -7,9 +7,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Component;
 
-import static org.springframework.util.Assert.*;
-
 import java.util.List;
+
+import static org.springframework.util.Assert.notNull;
 
 /**
  * Created by tk on 16-4-23.
